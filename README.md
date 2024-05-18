@@ -26,7 +26,7 @@ Select the type of the input sequences and specify the location of the file cont
 python3 main.py protein "Sample Inputs/sample_input_protein.txt"
 ```
 
-Steer the search process towards better solutions by tuning the available parameters:
+Steer the search process towards better solutions by tuning the parameters:
 ```
 python3 main.py dna "Sample Inputs/sample_input_dna.txt" --pop_size 3000 --num_gens 500 --epsilon 1e-5
 ```
